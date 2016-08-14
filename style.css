@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f7da96;
+}
+
+#container {
+    width: 600px;
+    border: 2px solid brown;
+    padding: 20px;
+    margin: 20px auto 80px;
+}
+
+.menu {
+    border: 3px groove pink;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline;
+    margin: 0 50px;
+}
+
+h1:first-child {
+    margin-top: 0;
+}
+#erstes-linda {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+p {
+    margin: 50px 0;
+}
+
+.intro.important {
+    font-weight: bold;
+}
+.intro {
+    color: red;
+}
+.intro p {
+    margin: 10px 15px;
+}
+
+#name {
+    font-weight: bold;
+}
+
+.highlight {
+    font-size: 20px;
+}
