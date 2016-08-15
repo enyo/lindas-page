@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     padding: 0;
@@ -14,16 +15,34 @@ body {
 }
 
 .menu {
-    border: 3px groove pink;
+
     list-style-type: none;
+    margin: 10px 0px;
     padding: 0;
-    text-align: center;
+    font-style:
 
 }
 
 .menu li {
-    display: inline;
-    margin: 0 50px;
+    text-align: center;
+    width: 145px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 0px;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+
+.menu li a{
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+.menu li:hover {
+  background-color: #f7da96;
 }
 
 h1:first-child {
